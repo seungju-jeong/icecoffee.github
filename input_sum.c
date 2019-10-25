@@ -5,9 +5,11 @@ int main(){
 	printf("input sum_num");
 	scanf("%d",&num);
 	
-	for(int i=1;i<=num;i++)
-		sum+=i;
-	printf("hi");
+	for(int i=1;i<=num;i++){
+		printf("%d",i);
+		printf("hi");
+	}
+	printf("hihi");
 	printf("sum is %d",sum);
 	return 0;
 }
