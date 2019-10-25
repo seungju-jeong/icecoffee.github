@@ -10,3 +10,7 @@ int main(){
 	printf("sum is %d",sum);
 	return 0;
 }
+void func()
+{
+	printf("print func");
+}
